@@ -4,7 +4,7 @@
 <form (ngSubmit)="onSubmit()">
     <mat-form-field>
         <mat-label>Username</mat-label>
-        <input matInput placeholder="Inserisci lo username" name= "username" required [formControl]="user">
+        <input matInput placeholder="Inserisci lo username" name= "username" required [formControl]="user" >
         <mat-icon matSuffix>account_circle</mat-icon>
       </mat-form-field>
       <br>
@@ -19,9 +19,9 @@
       <mat-form-field>
         <mat-label>Authcode</mat-label>
         <input matInput type="password" placeholder=" Inserisci il security code" name= "Authcode" required [formControl]="authcode" >
-        <mat-icon matSuffix>shield</mat-icon> 
+        <mat-icon matSuffix>shield</mat-icon>
       </mat-form-field>
       <br>
       <button mat-raised-button type="submit" name="btninvia">Invia</button>
-
+  ciao
 </form>
