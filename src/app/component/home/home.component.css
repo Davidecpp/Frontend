@@ -5,22 +5,21 @@
     position: absolute;
     display: flex;
     align-items: center;
-    background-color: #00FF00;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 18px;
     border-color: transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    top: 10px; 
-    left: 35%; 
-    width: 400px; 
-    height: 22.5px; 
+    top: 10px;
+    width: 500px;
+    height: 22.5px;
+    top: 5%;
+    left: 33%;
   }
-  
+
   #searchInput {
     flex-grow: 1;
     border: none;
     padding: 8px;
-    background-color: #00FF00;
     font-size: 16px;
     border-color: transparent;
   }
@@ -29,7 +28,7 @@
 #searchInput:focus {
     outline: none;
 }
- 
+
 
 /* menu destra*/
 
@@ -38,7 +37,7 @@
     top: 10px;
     right: 10px;
   }
-  
+
   button[name="menubottone"] {
     background-color: #3498db; /* Colore di sfondo */
     color: #fff; /* Colore del testo */
@@ -47,31 +46,31 @@
     border-radius: 5px; /* Angoli arrotondati */
     cursor: pointer;
   }
-  
+
   button[name="menubottone"]:hover {
     background-color: #2980b9; /* Cambia il colore di sfondo al passaggio del mouse */
   }
-  
+
   .mat-menu-panel {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ombra leggera per il menu */
   }
-  
+
   button[name="profiloutente"],
   button[name="galleria"] {
     text-align: left; /* Allinea il testo a sinistra */
     padding: 10px; /* Spaziatura interna */
   }
-  
+
   button[name="profiloutente"]:hover,
   button[name="galleria"]:hover {
     background-color: #ecf0f1; /* Cambia il colore di sfondo al passaggio del mouse */
   }
 
-  
+
   /* shopnft */
 
 
-  
+
 
 button[name="btncompraora"] {
   display: flex;
@@ -83,7 +82,7 @@ button[name="btncompraora"] {
   cursor: pointer;
   top: 100px;
   left: 130px;
-  
+
 }
 
 button[name="btncompraora"] mat-icon {
